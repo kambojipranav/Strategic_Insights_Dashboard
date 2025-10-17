@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+requests
+textblob
+vaderSentiment
+wordcloud
+python-dotenv
+datetime
+streamlit-authenticator
