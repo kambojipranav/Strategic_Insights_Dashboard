@@ -84,8 +84,6 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 +-------------------------------------------------------+
 
 
-```
-
 ## TechStack
 
 <img width="918" height="457" alt="image" src="https://github.com/user-attachments/assets/dea14904-e977-4b41-9471-5cff8cc5573e" />
