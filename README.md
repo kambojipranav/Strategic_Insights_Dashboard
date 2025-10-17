@@ -15,16 +15,7 @@ The project demonstrates deployment of an interactive, configurable dashboard th
 - [Modules Overview](#-modules-overview)
 - [Data Flow](#-data-flow)
 - [Installation](#-installation)
-- [Usage](#-usage)
-- [Dashboard Features](#-dashboard-features)
-- [Configuration](#-configuration)
-- [Example Code Snippets](#-example-code-snippets)
-- [Sample Visualizations](#-sample-visualizations)
-- [Optimization & Performance](#-optimization--performance)
-- [Future Enhancements](#-future-enhancements)
 - [Folder Structure](#-folder-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Author](#-author)
 
 ---
@@ -125,29 +116,94 @@ pip install -r requirements.txt
 # Run the dashboard (Streamlit)
 streamlit run app.py
 
-## Folder Structure
+## 📂 Folder Structure
 
+Below is the well-structured layout of the **Strategic Intelligence Dashboard** project.  
+Each directory and file serves a specific purpose in the data analytics and visualization workflow.
+
+```plaintext
 strategic-intelligence-dashboard/
 │
 ├── data/
-│   ├── raw/                # Unprocessed datasets
-│   └── processed/          # Cleaned and ready data
+│   ├── raw/                      # Original, unprocessed datasets (CSV, JSON, API dumps)
+│   └── processed/                # Cleaned and preprocessed datasets ready for analysis
 │
-├── src/
-│   ├── preprocessing.py    # Data cleaning and merging logic
-│   ├── analytics.py        # KPI and trend generation
-│   ├── visualization.py    # Chart creation logic
-│   └── dashboard.py        # Streamlit or Dash UI
+├── src/                          # Core source code for analytics and visualization
+│   ├── preprocessing.py           # Handles data cleaning, transformation, and merging
+│   ├── analytics.py               # Contains logic for KPI generation, alerts, and trend computation
+│   ├── visualization.py           # Matplotlib/Seaborn-based plotting and chart generation
+│   └── dashboard.py               # Streamlit/Dash-based UI logic for interactive visualization
 │
-├── config/
-│   └── config.yaml         # Dashboard settings
+├── config/                       # Configuration files for customization
+│   └── config.yaml                # Dashboard settings (theme, palettes, filters, time ranges)
 │
-├── assets/
-│   ├── logo.png
-│   ├── screenshots/
-│   └── styles.css
+├── assets/                       # Static files for UI and documentation
+│   ├── logo.png                   # Project logo or branding
+│   ├── screenshots/               # Example outputs or dashboard previews
+│   └── styles.css                 # Custom CSS for UI styling
 │
-├── app.py                  # Main application entry point
-├── requirements.txt        # Dependencies
-└── README.md               # Documentation
+├── notebooks/                    # (Optional) Jupyter notebooks for exploratory data analysis
+│   └── data_exploration.ipynb     # Example notebook to explore raw data before deployment
+│
+├── tests/                        # Unit and integration tests
+│   ├── test_preprocessing.py      # Tests for data preprocessing module
+│   ├── test_analytics.py          # Tests for analytics module
+│   └── test_visualization.py      # Tests for plotting and rendering
+│
+├── logs/                         # Logging directory for debugging and monitoring
+│   └── dashboard.log              # Log file storing runtime info and errors
+│
+├── docs/                         # Project documentation
+│   ├── setup_guide.md             # Setup and installation instructions
+│   └── architecture_overview.md   # System design and module interaction details
+│
+├── app.py                        # Main application entry point for dashboard launch
+│
+├── requirements.txt              # Python dependencies required to run the project
+│
+├── Dockerfile                    # (Optional) Container setup for Docker deployment
+│
+├── .gitignore                    # Files and folders ignored by Git
+│
+└── README.md                     # Comprehensive project documentation
+```
+
+🧭 Directory Overview
+
+<img width="892" height="654" alt="image" src="https://github.com/user-attachments/assets/8fea821c-075f-4fe0-85f9-b88f3f808ce2" />
+
+
+## 👨‍💻 Author
+
+**Name:** Pranav Kamboji  
+**Role:** Developer & Data Intelligence Engineer  
+**Project:** Strategic Intelligence Dashboard  
+**Version:** 1.0.0  
+**Date Created:** October 2025  
+**License:** MIT License  
+
+---
+
+### 📫 Contact Information
+- **GitHub:** [@PranavKamboji](https://github.com/PranavKamboji)
+- **LinkedIn:** [Pranav Kamboji](https://www.linkedin.com/in/pranav-kamboji)
+- **Email:** pranav.kamboji@example.com
+- **Portfolio:** [www.pranavkamboji.dev](https://www.pranavkamboji.dev)
+
+---
+
+### 🧠 About the Author
+Pranav Kamboji is a **Computer Science student and full-stack developer** passionate about **data visualization, backend systems, and AI-driven analytics**.  
+He focuses on building **scalable, insight-driven applications** that merge intelligent data analysis with elegant user experience.
+
+---
+
+### 🧩 Author’s Note
+> “This project represents the integration of **strategic intelligence and data storytelling**.  
+> My goal was to craft an interactive, modular system capable of delivering real-time insights that empower smarter business decisions.”  
+
+Feel free to fork, improve, or contribute to this project. Contributions are always welcome! 🚀
+
+---
+
 
