@@ -51,7 +51,7 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 
 ---
 
-## 🏗 Architecture
+##  🏗 Architecture
 
 ```plaintext
 +-------------------------------------------------------+
@@ -101,13 +101,13 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 <img width="700" height="162" alt="image" src="https://github.com/user-attachments/assets/a6ffe7cb-6593-4d18-b18d-aaff60d8338c" />
 
 
-##⚙️ Installation
+## ⚙️ Installation
 
 <img width="205" height="155" alt="image" src="https://github.com/user-attachments/assets/7043dde6-5fb1-4294-a39e-993d839c95db" />
 
 Steps
 
-# Clone the repository
+#Clone the repository
 git clone https://github.com/pranavkamboji/strategic-intelligence-dashboard.git
 cd strategic-intelligence-dashboard
 
