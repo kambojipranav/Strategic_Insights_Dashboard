@@ -96,7 +96,7 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 
 <img width="790" height="657" alt="image" src="https://github.com/user-attachments/assets/818ae95c-f94d-472c-8fb9-a78f5d1ad211" />
 
-##🔄 Data Flow
+## 🔄 Data Flow
 
 <img width="700" height="162" alt="image" src="https://github.com/user-attachments/assets/a6ffe7cb-6593-4d18-b18d-aaff60d8338c" />
 
