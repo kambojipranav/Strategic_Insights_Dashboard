@@ -64,3 +64,78 @@ The system is **modular**, **extendable**, and **deployable**, making it suitabl
 
 The dashboard architecture is modular and scalable:
 
+
+
+
+---
+
+## 💻 Tech Stack
+
+| Layer | Technology | Description |
+|-------|-------------|-------------|
+| **Language** | Python 3.9+ | Core language for analytics |
+| **Visualization** | Matplotlib, Seaborn | Data visualization libraries |
+| **UI Framework** | Streamlit / Dash | Interactive dashboard frontend |
+| **Data Handling** | Pandas, NumPy | Data manipulation and cleaning |
+| **Deployment** | Docker / Streamlit Cloud | Cloud or local deployment |
+| **Version Control** | Git + GitHub | Repository and code management |
+
+---
+
+## 🔍 Modules Overview
+
+### 🧩 1. Data Ingestion
+Handles reading data from CSVs, APIs, or databases.  
+Includes cleaning, merging, and removing inconsistencies.
+
+### 📊 2. Analytics Engine
+Processes raw data to generate KPIs such as **growth rate**, **sentiment index**, and **anomaly scores**.
+
+### 📈 3. Visualization Module
+Generates charts and graphics using Matplotlib and Seaborn for:
+- Time-based trends  
+- Sector-wise comparisons  
+- Heatmaps  
+- Alert frequency graphs  
+
+### 💻 4. Dashboard Interface
+Provides an interactive UI layer where users can:
+- Filter by **sector**, **time range**, and **competitor**
+- Customize **chart types**
+- View **real-time analytics**
+- Export **visual summaries**
+
+---
+
+## 🔄 Data Flow
+
+
+<img width="753" height="54" alt="image" src="https://github.com/user-attachments/assets/1397ebf6-da7e-4e77-98e5-4660203cb9df" />
+
+
+**Input:** Raw data from multiple sources  
+**Processing:** Cleaning, normalization, and metric computation  
+**Output:** Interactive visualizations for trend and competitor tracking
+
+---
+
+## ⚙️ Installation
+
+### 🧰 Prerequisites
+- Python 3.9 or later  
+- pip (Python package manager)  
+- Git  
+
+### 🪜 Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/<your-username>/strategic-intelligence-dashboard.git
+   cd strategic-intelligence-dashboard
+<img width="394" height="694" alt="image" src="https://github.com/user-attachments/assets/68e4785b-188d-4e50-829e-e5114ce99b26" />
+
+
+
+
+
+
