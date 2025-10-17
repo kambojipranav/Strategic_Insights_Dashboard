@@ -90,7 +90,9 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 <img width="918" height="457" alt="image" src="https://github.com/user-attachments/assets/dea14904-e977-4b41-9471-5cff8cc5573e" />
 
 
-##🔍 Modules Overview
+
+
+## Modules Overview
 
 <img width="790" height="657" alt="image" src="https://github.com/user-attachments/assets/818ae95c-f94d-472c-8fb9-a78f5d1ad211" />
 
