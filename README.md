@@ -82,6 +82,7 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 |            Interactive Dashboard (UI)                 |
 |   (Streamlit / Dash - Filters, Exports, Reports)      |
 +-------------------------------------------------------+
+```
 
 
 ## TechStack
