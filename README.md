@@ -125,4 +125,29 @@ pip install -r requirements.txt
 # Run the dashboard (Streamlit)
 streamlit run app.py
 
+## Folder Structure
+
+strategic-intelligence-dashboard/
+│
+├── data/
+│   ├── raw/                # Unprocessed datasets
+│   └── processed/          # Cleaned and ready data
+│
+├── src/
+│   ├── preprocessing.py    # Data cleaning and merging logic
+│   ├── analytics.py        # KPI and trend generation
+│   ├── visualization.py    # Chart creation logic
+│   └── dashboard.py        # Streamlit or Dash UI
+│
+├── config/
+│   └── config.yaml         # Dashboard settings
+│
+├── assets/
+│   ├── logo.png
+│   ├── screenshots/
+│   └── styles.css
+│
+├── app.py                  # Main application entry point
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
 
