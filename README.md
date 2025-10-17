@@ -91,3 +91,38 @@ The system is **modular, extendable, and deployable**, suitable for any organiza
 |            Interactive Dashboard (UI)                 |
 |   (Streamlit / Dash - Filters, Exports, Reports)      |
 +-------------------------------------------------------+
+
+
+```
+
+## TechStack
+
+<img width="918" height="457" alt="image" src="https://github.com/user-attachments/assets/dea14904-e977-4b41-9471-5cff8cc5573e" />
+
+
+##🔍 Modules Overview
+
+<img width="790" height="657" alt="image" src="https://github.com/user-attachments/assets/818ae95c-f94d-472c-8fb9-a78f5d1ad211" />
+
+##🔄 Data Flow
+
+<img width="700" height="162" alt="image" src="https://github.com/user-attachments/assets/a6ffe7cb-6593-4d18-b18d-aaff60d8338c" />
+
+
+##⚙️ Installation
+
+<img width="205" height="155" alt="image" src="https://github.com/user-attachments/assets/7043dde6-5fb1-4294-a39e-993d839c95db" />
+
+Steps
+
+# Clone the repository
+git clone https://github.com/pranavkamboji/strategic-intelligence-dashboard.git
+cd strategic-intelligence-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard (Streamlit)
+streamlit run app.py
+
+
